@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../android-std-ext" name="android-std-ext">
+                <projects>
+                  <project path="$PROJECT_DIR$/../android-std-ext" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/../compose-ext" name="compose-ext">
+                <projects>
+                  <project path="$PROJECT_DIR$/../compose-ext" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/../std-plus" name="std-plus">
+                <projects>
+                  <project path="$PROJECT_DIR$/../std-plus" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../android-std-ext" />
+            <option value="$PROJECT_DIR$/../compose-ext" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../std-plus" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
